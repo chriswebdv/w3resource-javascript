@@ -44,3 +44,11 @@ while (true) {
     sum += value;
 }
 console.log("Sum: " + sum);
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 1) {
+        continue
+    } else {
+        console.log(i);
+    }
+}
