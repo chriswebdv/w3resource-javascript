@@ -52,3 +52,21 @@ for (let i = 1; i <= 10; i++) {
         console.log(i);
     }
 }
+
+let j = 0;
+
+while (j < 3) {
+    alert(`number ${j}!`);
+    j++
+}
+
+while (true) {
+    let ask = +prompt("Give number: ", "");
+    if (ask <= 100) {
+        console.log("Input again ");
+    } else {
+        break
+    }
+    console.log(ask);
+}
+
