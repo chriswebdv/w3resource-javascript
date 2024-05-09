@@ -31,3 +31,16 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log(myAnimals);
+
+
+let sum = 0;
+
+while (true) {
+    let value = +prompt("Enter a number", "");
+
+    if (!value) {
+        break;
+    }
+    sum += value;
+}
+console.log("Sum: " + sum);
