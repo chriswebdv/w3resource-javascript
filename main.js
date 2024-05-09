@@ -13,3 +13,21 @@ while (i >= 1) {
 }
 console.log("second lift off!");
     
+const arr = [
+    "tiger",
+    "lion",
+    "cheetah",
+    "monkey",
+    "hyena"
+]
+
+let myAnimals = "My animals are: "
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === "cheetah") {
+        myAnimals += `love them ${arr[i]}`
+    } else {
+        myAnimals += `${arr[i]}`
+    }
+}
+
+console.log(myAnimals);
